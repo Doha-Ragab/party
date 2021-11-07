@@ -1,0 +1,158 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+#home .container h1{
+    color: #fff;
+    font-size: 60px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.bg-home{
+background: url(../img/events-heavenly-header.jpg) ;
+background-position: center center;
+background-size: cover;
+height: 100vh;
+}
+.bg-layer{
+    background-color: rgba(214, 46, 51 , 0.6);
+    width: 100%;
+    height: 100vh;
+}
+.nav{
+    position: fixed;
+    top:0px;
+    left: -244.031px;
+    z-index: 1;
+}
+.nav div{
+    background-color: #414658;
+}
+.nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    line-height: 35px;
+    font-weight:400;
+    padding: 5px 120px 0px 30px;
+    transition: all 1s;
+}
+.nav a:hover{
+    color:rgba(214, 46, 51 , 0.6) ;
+}
+.btnClose{
+    color: #fff;
+}
+.btnClose:hover{
+    color:rgba(214, 46, 51 , 0.6)  
+}
+.btnOpen{
+    font-size: 30px;
+    position: absolute;
+    top: 55%;
+    left: 0px;
+   
+    color: #fff;
+
+}
+.btnOpen span{
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+#accordion .detSinger{
+    display:none;
+    padding: 5px;
+    background-color: rgb(204, 200, 200);
+}
+#accordion button{
+    background-color: rgba(214, 46, 51 , 0.6);
+    color: #fff;
+    font-size: 19px;
+    padding: 10px;
+    margin-bottom: 1px;
+    border-radius: 0px;
+}
+#accordion .btn{
+    box-shadow: none !important;
+}
+#counter .bg-count{
+    background-image: url(../img/invitation-2508607__340.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+#counter .layer-count{
+    background-color: rgba(214, 46, 51 , 0.6);
+    width: 100%;
+   
+
+}
+.layer-count div{
+    padding: 100px;
+}
+.layer-count div div{
+    border:1px solid white;
+    padding: 40px 90px;
+    /* margin: 20px; */
+}
+.layer-count div p{
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+}
+#contact h2{
+    font-size: 35px;
+    font-weight: 600;
+    color: #333333;
+
+}
+#contact h4{
+    font-size: 18px;
+    font-weight: 800;
+    color: #444444;
+
+}
+#contact .con-inf{
+    flex-basis: 48%;
+}
+#contact  .con-info div p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #777777;
+    margin-left:20px;
+    font-weight: 300;
+}
+#contact .con-form{
+    flex-basis: 49%;
+
+}
+#contact p{
+    color: #777777;
+}
+.social-med i{
+    border: 1px solid #777;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    color: #777;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.social-med i:hover{
+    background-color: #d62e33;
+ border: 1px solid #d62e33;;
+    color: white;
+}
+.con-form button{
+    background-color: #d62e33;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+}
+.con-form button:hover{
+    color: white;
+    background-color: #d62e34e8;
+}
